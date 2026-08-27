@@ -1,9 +1,8 @@
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 60px; /* Compensa la altura del navbar sticky */
+    scroll-padding-top: 60px;
 }
 
-/* Fuentes del Hero Banner */
 .nombre-cursiva {
     font-family: 'Playfair Display', serif;
     font-style: italic;

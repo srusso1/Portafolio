@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio y hoja de vida de Sebastian Camilo Russo Barrios - Estudiante de Ingeniería de Sistemas">
+    <meta name="author" content="Sebastian Camilo Russo Barrios">
+    <title>Sebastian Russo - Portafolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts: Playfair Display + Shrikhand + Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600;1,700&family=Poppins:wght@300;400;500&family=Shrikhand&display=swap" rel="stylesheet">
+
+    <!-- Estilos personalizados (mínimo) -->
+    <link rel="stylesheet" href="src/styles/index.css">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-code-slash me-1"></i> S. Russo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#educacion">Educación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-primary text-white py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-3 text-center">
+                    <img src="src/images/avatarGato.jpg" alt="Foto de Sebastian Camilo Russo Barrios"
+                         class="img-fluid rounded-circle border border-4 border-white shadow"
+                         style="max-width: 180px;">
+                </div>
+                <div class="col-lg-9 text-center text-lg-start">
+                    <h1 class="nombre-cursiva display-4 mb-0">Sebastian Camilo</h1>
+                    <h2 class="apellido-retro display-3 mb-2">Russo Barrios</h2>
+                    <p class="subtitulo-profesion fs-6 mb-3 text-white-50">
+                        <i class="bi bi-mortarboard-fill me-1"></i> Estudiante de Ingeniería de Sistemas
+                    </p>
+                    <div class="d-flex gap-2 justify-content-center justify-content-lg-start">
+                        <a href="https://github.com/srusso1" target="_blank" rel="noopener noreferrer"
+                           class="btn btn-outline-light btn-sm">
+                            <i class="bi bi-github me-1"></i> GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer"
+                           class="btn btn-outline-light btn-sm">
+                            <i class="bi bi-linkedin me-1"></i> LinkedIn
+                        </a>
+                        <a href="mailto:srusso@unicesar.edu.co" class="btn btn-outline-light btn-sm">
+                            <i class="bi bi-envelope me-1"></i> Contacto
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container my-4">
+        <div class="row g-4">
+
+            <div class="col-lg-4">
+
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="bi bi-person-fill me-2"></i> Información de Contacto</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center gap-2">
+                            <i class="bi bi-telephone text-info"></i> +57 302 263 2491
+                        </li>
+                        <li class="list-group-item d-flex align-items-center gap-2">
+                            <i class="bi bi-envelope text-info"></i> srusso@unicesar.edu.co
+                        </li>
+                        <li class="list-group-item d-flex align-items-center gap-2">
+                            <i class="bi bi-geo-alt text-info"></i> Calle 64 #25-113, Valledupar, Colombia
+                        </li>
+                        <li class="list-group-item d-flex align-items-center gap-2">
+                            <i class="bi bi-person-bounding-box text-info"></i> 1067597863
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="bi bi-translate me-2"></i> Idiomas</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Español
+                            <span class="badge bg-success rounded-pill">Nativo</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Inglés
+                            <span class="badge bg-warning text-dark rounded-pill">Básico</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="bi bi-globe2 me-2"></i> Redes Profesionales</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a href="https://github.com/srusso1" target="_blank" rel="noopener noreferrer"
+                               class="text-decoration-none text-dark d-flex align-items-center gap-2">
+                                <i class="bi bi-github fs-5"></i> github.com/srusso1
+                                <i class="bi bi-box-arrow-up-right text-muted small ms-auto"></i>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer"
+                               class="text-decoration-none text-primary d-flex align-items-center gap-2">
+                                <i class="bi bi-linkedin fs-5"></i> LinkedIn
+                                <i class="bi bi-box-arrow-up-right text-muted small ms-auto"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="bi bi-person-lines-fill me-2"></i> Referencias</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="fw-bold">Juan Pérez Gómez</div>
+                                    <small class="text-secondary">Ingeniero de Software - Empresa XYZ</small>
+                                </div>
+                                <span class="badge bg-light text-dark border">
+                                    <i class="bi bi-telephone me-1 text-info"></i> +57 310 123 4567
+                                </span>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="fw-bold">María Rodríguez Soto</div>
+                                    <small class="text-secondary">Docente Universitaria - UPC</small>
+                                </div>
+                                <span class="badge bg-light text-dark border">
+                                    <i class="bi bi-telephone me-1 text-info"></i> +57 320 987 6543
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+
+                <section id="sobre-mi" class="card shadow-sm mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="bi bi-person-badge me-2"></i> Sobre Mí</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-0 text-secondary">
+                            Estudiante de Ingeniería de Sistemas en la Universidad Popular del Cesar, apasionado por
+                            el desarrollo de software y las tecnologías de la información. Busco oportunidades para
+                            crecer profesionalmente mientras contribuyo con soluciones tecnológicas innovadoras.
+                            Con enfoque en el aprendizaje continuo y el trabajo colaborativo.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="educacion" class="card shadow-sm mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="bi bi-mortarboard-fill me-2"></i> Educación</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-1">
+                            <h6 class="fw-bold text-dark mb-0">Ingeniería de Sistemas</h6>
+                            <span class="badge bg-primary">Cursando</span>
+                        </div>
+                        <p class="text-primary fw-semibold mb-1">
+                            <i class="bi bi-building me-1"></i> Universidad Popular del Cesar (UPC)
+                        </p>
+                        <p class="text-secondary small mb-3">
+                            Estudiante con formación integral y énfasis en el desarrollo de software,
+                            gestión de tecnologías de la información (TIC) y solución de retos tecnológicos.
+                        </p>
+
+                        <hr>
+
+                        <div class="d-flex justify-content-between align-items-center mb-1">
+                            <h6 class="fw-bold text-dark mb-0">Bachiller Académico</h6>
+                            <span class="badge bg-secondary">Graduado | 2023</span>
+                        </div>
+                        <p class="text-secondary fw-semibold mb-3">
+                            <i class="bi bi-building me-1"></i> Colegio Evangélico Ebenezer
+                        </p>
+
+                        <hr>
+
+                        <div class="d-flex justify-content-between align-items-center mb-1">
+                            <h6 class="fw-bold text-dark mb-0">Educación Básica Primaria</h6>
+                            <span class="badge bg-secondary">Graduado | 2017</span>
+                        </div>
+                        <p class="text-secondary fw-semibold mb-0">
+                            <i class="bi bi-building me-1"></i> IE Andrés Nicolás Escobar Escobar
+                        </p>
+                    </div>
+                </section>
+
+                <section id="experiencia" class="card shadow-sm mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="bi bi-briefcase-fill me-2"></i> Experiencia Laboral</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-secondary fst-italic mb-0">
+                            <i class="bi bi-info-circle me-1"></i>
+                            Actualmente en búsqueda de mi primera oportunidad profesional.
+                            Abierto a prácticas, pasantías y proyectos freelance.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="habilidades" class="card shadow-sm mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="bi bi-gear-fill me-2"></i> Habilidades Técnicas</h5>
+                    </div>
+                    <div class="card-body">
+                        
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-semibold"><i class="bi bi-filetype-html me-1 text-danger"></i> HTML & CSS</span>
+                                <span class="text-secondary small">65%</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 65%"></div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-semibold"><i class="bi bi-bootstrap me-1 text-purple"></i> Bootstrap 5</span>
+                                <span class="text-secondary small">50%</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 50%"></div>
+                            </div>
+                        </div>
+
+                        <!-- JavaScript -->
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-semibold"><i class="bi bi-filetype-js me-1 text-warning"></i> JavaScript</span>
+                                <span class="text-secondary small">40%</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 40%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Java -->
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-semibold"><i class="bi bi-filetype-java me-1 text-primary"></i> Java</span>
+                                <span class="text-secondary small">85%</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Git -->
+                        <div class="mb-0">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-semibold"><i class="bi bi-git me-1 text-danger"></i> Git & GitHub</span>
+                                <span class="text-secondary small">80%</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-dark" role="progressbar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Proyectos -->
+                <section id="proyectos" class="card shadow-sm mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="bi bi-code-square me-2"></i> Proyectos</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <!-- Proyecto 1 -->
+                            <div class="col-md-6">
+                                <div class="card h-100 border shadow-sm">
+                                    <div class="card-body">
+                                        <h6 class="card-title fw-bold">
+                                            <i class="bi bi-folder-fill text-warning me-1"></i> Portafolio Personal
+                                        </h6>
+                                        <p class="card-text text-secondary small">
+                                            Página web responsiva tipo portafolio construida con HTML5, CSS3 y
+                                            Bootstrap 5. Diseño de dos columnas con componentes interactivos.
+                                        </p>
+                                        <div class="d-flex flex-wrap gap-1">
+                                            <span class="badge bg-danger">HTML</span>
+                                            <span class="badge bg-primary">CSS</span>
+                                            <span class="badge bg-info">Bootstrap</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer bg-white border-top-0">
+                                        <a href="https://github.com/srusso1/PaginaHojaDeVida" target="_blank"
+                                           rel="noopener noreferrer" class="btn btn-outline-dark btn-sm w-100">
+                                            <i class="bi bi-github me-1"></i> Ver código
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Proyecto 2 (Placeholder) -->
+                            <div class="col-md-6">
+                                <div class="card h-100 border border-dashed text-center d-flex align-items-center justify-content-center">
+                                    <div class="card-body text-secondary">
+                                        <i class="bi bi-plus-circle fs-1 d-block mb-2 text-muted"></i>
+                                        <p class="small mb-0">Próximo proyecto...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-dark text-white text-center py-4 mt-3">
+        <div class="container">
+            <p class="mb-2">© 2026 Sebastian Camilo Russo Barrios</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="https://github.com/srusso1" target="_blank" rel="noopener noreferrer" class="text-white fs-5">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer" class="text-white fs-5">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="mailto:srusso@unicesar.edu.co" class="text-white fs-5">
+                    <i class="bi bi-envelope-fill"></i>
+                </a>
+            </div>
+            <small class="text-white-50 d-block mt-2">Hecho con <i class="bi bi-bootstrap-fill text-info"></i> Bootstrap 5</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (Navbar toggle, tooltips, etc.) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px; /* Compensa la altura del navbar sticky */
+}
+
+/* Fuentes del Hero Banner */
+.nombre-cursiva {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.apellido-retro {
+    font-family: 'Shrikhand', cursive;
+}
+
+.subtitulo-profesion {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
